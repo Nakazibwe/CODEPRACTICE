@@ -1,1 +1,4 @@
 node_modules/
+.DS_Store
+main/node_modules/
+MONGO1/node_modules/

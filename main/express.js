@@ -3,12 +3,12 @@ const Joi = require('joi');
 
 const app = express();
 
-app.use(express.json());
+app.use(express.json());// request .json
 // app.get();
 // app.post();
 // app.put();
 // app.delete();
-const courses = [
+const courses = [  
     { id: 1, name: 'NODEJS' },
     { id: 2, name: 'JavaScript' },
     { id: 3, name: 'Python' }
